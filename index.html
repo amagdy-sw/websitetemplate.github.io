@@ -5,110 +5,171 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website Template</title>
     <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
 </head>
-<body>
-    <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
+
+<body data-spy="scroll" data-target="#navbar">
+    <nav id="navbar" class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">Brand</a>
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link" href="#Home">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#About">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Services">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <main role="main" class="mt-5">
         <div class="container">
-          <a class="navbar-brand" href="#">Responsive Website</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#">Contact</a>
-              </li>
-            </ul>
-            <ul class="nav navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Login</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      
-      <main role="main" class="container">
-        <div class="row">
-          <div class="col">
-            <div class="jumbotron">
-              <h1 class="display-2">Learn Geometry</h1>
-              <p class="lead">This example is a quick exercise to illustrate how fixed to top navbar works. As you scroll, it will remain fixed to the top of your browser's viewport.</p>
-              <a class="btn btn-lg btn-primary" href="#" role="button">Get Started &raquo;</a>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <!-- wider column -->
-          <div class="col-md-8 mb-4">
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-            </p>
-            <h2 class="display-3">Pythagoras Theorem</h2>
-            <p>
-              t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here,
-              content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various
-              versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-            </p>
-            <!-- nested columns -->
             <div class="row">
-              <div class="col-md">
-                <h3 class="display-4">Title</h3>
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                </p>
-                <a href="#" class="btn btn-primary">Button</a>
-              </div>
-              <div class="col-md">
-                <h3 class="display-4">Title</h3>
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                </p>
-                <a href="#" class="btn btn-primary">Button</a>
-              </div>
-              <div class="col-md">
-                <h3 class="display-4">Title</h3>
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                </p>
-                <a href="#" class="btn btn-primary">Button</a>
-              </div>
+                <div class="col-md-12 pt-3">
+                    <div class="jumbotron">
+                        <h1 class="display-4">Hello, world!</h1>
+                        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra
+                            attention to featured content or information.</p>
+                        <hr class="my-4">
+                        <p>It uses utility classes for typography and spacing to space content out within the larger
+                            container.</p>
+                        <p class="lead">
+                            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                        </p>
+                    </div>
+                </div>
             </div>
-          <!-- narrower column with sidebar links -->  
-          </div>
-          <div class="col-md-4 mb-4">
-            <ul class="nav nav-pills flex-column">
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Active</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#">Disabled</a>
-              </li>
-            </ul>
-          </div>
+            <div class="row">
+                <div id="Home" class="col-md-12 p6">
+                    <h1>Home</h1>
+                    <p>
+                        Veniam marfa mustache skateboard, adipisicing fugiat velit pitchfork beard. Freegan beard aliqua
+                        cupidatat mcsweeney's vero. Cupidatat four loko nisi, ea helvetica nulla carles. Tattooed cosby
+                        sweater food truck, mcsweeney's quis non freegan vinyl. Lo-fi wes anderson +1 sartorial. Carles
+                        non
+                        aesthetic exercitation quis gentrify. Brooklyn adipisicing craft beer vice keytar deserunt.
+                        Veniam marfa mustache skateboard, adipisicing fugiat velit pitchfork beard. Freegan beard aliqua
+                        cupidatat mcsweeney's vero. Cupidatat four loko nisi, ea helvetica nulla carles. Tattooed cosby
+                        sweater food truck, mcsweeney's quis non freegan vinyl. Lo-fi wes anderson +1 sartorial. Carles
+                        non
+                        aesthetic exercitation quis gentrify. Brooklyn adipisicing craft beer vice keytar deserunt.
+                        Veniam marfa mustache skateboard, adipisicing fugiat velit pitchfork beard. Freegan beard aliqua
+                        cupidatat mcsweeney's vero. Cupidatat four loko nisi, ea helvetica nulla carles. Tattooed cosby
+                        sweater food truck, mcsweeney's quis non freegan vinyl. Lo-fi wes anderson +1 sartorial. Carles
+                        non
+                        aesthetic exercitation quis gentrify. Brooklyn adipisicing craft beer vice keytar deserunt.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div id="About" class="col-md-12 p6">
+                    <h1>About</h1>
+                    <p>
+                        Veniam marfa mustache skateboard, adipisicing fugiat velit pitchfork beard. Freegan beard aliqua
+                        cupidatat mcsweeney's vero. Cupidatat four loko nisi, ea helvetica nulla carles. Tattooed cosby
+                        sweater food truck, mcsweeney's quis non freegan vinyl. Lo-fi wes anderson +1 sartorial. Carles
+                        non
+                        aesthetic exercitation quis gentrify. Brooklyn adipisicing craft beer vice keytar deserunt.
+                        Veniam marfa mustache skateboard, adipisicing fugiat velit pitchfork beard. Freegan beard aliqua
+                        cupidatat mcsweeney's vero. Cupidatat four loko nisi, ea helvetica nulla carles. Tattooed cosby
+                        sweater food truck, mcsweeney's quis non freegan vinyl. Lo-fi wes anderson +1 sartorial. Carles
+                        non
+                        aesthetic exercitation quis gentrify. Brooklyn adipisicing craft beer vice keytar deserunt.
+                        Veniam marfa mustache skateboard, adipisicing fugiat velit pitchfork beard. Freegan beard aliqua
+                        cupidatat mcsweeney's vero. Cupidatat four loko nisi, ea helvetica nulla carles. Tattooed cosby
+                        sweater food truck, mcsweeney's quis non freegan vinyl. Lo-fi wes anderson +1 sartorial. Carles
+                        non
+                        aesthetic exercitation quis gentrify. Brooklyn adipisicing craft beer vice keytar deserunt.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div id="Services" class="col-md-12 p6">
+                    <h1>Services</h1>
+                    <p>
+                        Veniam marfa mustache skateboard, adipisicing fugiat velit pitchfork beard. Freegan beard aliqua
+                        cupidatat mcsweeney's vero. Cupidatat four loko nisi, ea helvetica nulla carles. Tattooed cosby
+                        sweater food truck, mcsweeney's quis non freegan vinyl. Lo-fi wes anderson +1 sartorial. Carles
+                        non
+                        aesthetic exercitation quis gentrify. Brooklyn adipisicing craft beer vice keytar deserunt.
+                        Veniam marfa mustache skateboard, adipisicing fugiat velit pitchfork beard. Freegan beard aliqua
+                        cupidatat mcsweeney's vero. Cupidatat four loko nisi, ea helvetica nulla carles. Tattooed cosby
+                        sweater food truck, mcsweeney's quis non freegan vinyl. Lo-fi wes anderson +1 sartorial. Carles
+                        non
+                        aesthetic exercitation quis gentrify. Brooklyn adipisicing craft beer vice keytar deserunt.
+                        Veniam marfa mustache skateboard, adipisicing fugiat velit pitchfork beard. Freegan beard aliqua
+                        cupidatat mcsweeney's vero. Cupidatat four loko nisi, ea helvetica nulla carles. Tattooed cosby
+                        sweater food truck, mcsweeney's quis non freegan vinyl. Lo-fi wes anderson +1 sartorial. Carles
+                        non
+                        aesthetic exercitation quis gentrify. Brooklyn adipisicing craft beer vice keytar deserunt.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div id="Contact" class="col-md-12 p6">
+                    <h1>Contact</h1>
+                    <p>
+                        Veniam marfa mustache skateboard, adipisicing fugiat velit pitchfork beard. Freegan beard aliqua
+                        cupidatat mcsweeney's vero. Cupidatat four loko nisi, ea helvetica nulla carles. Tattooed cosby
+                        sweater food truck, mcsweeney's quis non freegan vinyl. Lo-fi wes anderson +1 sartorial. Carles
+                        non
+                        aesthetic exercitation quis gentrify. Brooklyn adipisicing craft beer vice keytar deserunt.
+                        Veniam marfa mustache skateboard, adipisicing fugiat velit pitchfork beard. Freegan beard aliqua
+                        cupidatat mcsweeney's vero. Cupidatat four loko nisi, ea helvetica nulla carles. Tattooed cosby
+                        sweater food truck, mcsweeney's quis non freegan vinyl. Lo-fi wes anderson +1 sartorial. Carles
+                        non
+                        aesthetic exercitation quis gentrify. Brooklyn adipisicing craft beer vice keytar deserunt.
+                        Veniam marfa mustache skateboard, adipisicing fugiat velit pitchfork beard. Freegan beard aliqua
+                        cupidatat mcsweeney's vero. Cupidatat four loko nisi, ea helvetica nulla carles. Tattooed cosby
+                        sweater food truck, mcsweeney's quis non freegan vinyl. Lo-fi wes anderson +1 sartorial. Carles
+                        non
+                        aesthetic exercitation quis gentrify. Brooklyn adipisicing craft beer vice keytar deserunt.
+                    </p>
+                </div>
+            </div>
         </div>
-      </main>
-      <footer class="container mt-4">
+    </main>
+    <hr />
+    <!-- FOOTER -->
+    <footer class="container-fluid bg-dark text-light p6">
         <div class="row">
-          <div class="col">
-            <p class="text-center">Original design by <a href="#">Zetiz Labs</a></p>
-          </div>
+            <div class="col-md-5">
+                <h5 class="font-weight-bold text-uppercase">Brand</h5>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sapiente sint, nulla, nihil repudiandae commodi voluptatibus corrupti animi sequi aliquid magnam debitis, maxime quam recusandae harum esse fugiat. Itaque, culpa?
+                </p>
+            </div>
+            <div class="col-md-3">
+                <h5 class="font-weight-bold text-uppercase">Privacy & Terms</h5>
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="#">Privacy</a>
+                    </li>
+                    <li>
+                        <a href="#">Terms</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5 class="font-weight-bold text-uppercase">Navigation</h5>
+                <p><a href="#">Back to top</a></p>    
+            </div>
         </div>
-      </footer>
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="#"> Brand</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <script>
+        $('body').scrollspy({ target: '#navbar' })
+    </script>
 </body>
 
 </html>
