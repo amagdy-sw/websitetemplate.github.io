@@ -2,12 +2,8 @@ body {
     position: relative;
 }
 
-.p6{
-    padding-top: 3rem;
-}
-
-.p6 h1{
-    padding-top: 3rem;
+.pt-6{
+    padding-top: 6rem;
 }
 
 .jumbotron{
