@@ -38,7 +38,7 @@
         </div>
     </nav>
     <main role="main" class="mt-5">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12 pt-3">
                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -69,17 +69,20 @@
             </div>
             <div class="row">
                 <div id="Home" class="col-md-12 pt-6">
-                    <p class="h2">Get Started</p>
-                    <div class="card bg-dark text-white">
-                        <img src="images/banner.jpg" class="card-img" alt="...">
-                        <div class="card-img-overlay">
-                            <h3 class="card-title">Banner Title</h3>
-                            <p class="card-text"><b>Banner Text</b></p>
+                    <div class="jumbotron">
+                        <h1 class="display-4">Get Started</h1>
+                        <div class="row">
+                            <div class="col-md-7">
+                                <img src="images/banner.jpg" alt="banner" />
+                            </div>
+                            <div class="col-md-5">
+                                <p class="lead">Get Started <br/> Description</p>
+                            </div>
                         </div>
-                        <div class="card-footer bg-light">
-                            <p class="text-secondary">Some Description</p>
-                            <button type="button" class="btn btn-dark">Explore</button>
-                        </div>
+                        <hr class="my-4">
+                        <p class="lead">
+                            <a class="btn btn-primary btn-lg" href="#About" role="button">Learn more</a>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -94,15 +97,15 @@
                                 <div class="card-body">
                                     <h5 class="card-title">About</h5>
                                     <p class="card-text">
-                                        <h5>Sub-heading</h5>
-                                        <p class="card-text mb-auto">Sub-heading text</p>
-                                        <br />
-                                        <h5>Sub-heading</h5>
-                                        <p class="card-text mb-auto">Sub-heading text</p>
+                                    <h5>Sub-heading</h5>
+                                    <p class="card-text mb-auto">Sub-heading text</p>
+                                    <br />
+                                    <h5>Sub-heading</h5>
+                                    <p class="card-text mb-auto">Sub-heading text</p>
                                     </p>
                                 </div>
                             </div>
-                        </div>                       
+                        </div>
                     </div>
                 </div>
             </div>
@@ -216,18 +219,25 @@
                 <h5 class="font-weight-bold text-uppercase">Privacy & Terms</h5>
                 <ul class="list-unstyled">
                     <li>
+                        <a href="#Services">Services</a>
+                    </li>
+                    <li>
                         <a href="#">Privacy</a>
                     </li>
                     <li>
                         <a href="#">Terms</a>
                     </li>
+                    <li>
+                        <a href="#Contact">Contact</a>
+                    </li>
                 </ul>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 pl-5">
                 <h5 class="font-weight-bold text-uppercase">Navigation</h5>
                 <p><a href="#">Back to top</a></p>
             </div>
         </div>
+        <hr class="my-4"/>
         <!-- Copyright -->
         <div class="footer-copyright text-center py-3">© 2020 Copyright:
             <a href="#"> Brand</a>
